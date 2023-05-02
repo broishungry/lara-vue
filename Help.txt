@@ -1,0 +1,22 @@
+### DEBUG BAR
+composer require barryvdh/laravel-debugbar --dev
+
+### IDE HELPER
+composer require --dev barryvdh/laravel-ide-helper
+    php artisan ide-helper:generate- Генерация PHPDoc для фасадов Laravel
+    php artisan ide-helper:meta- Метафайл PhpStorm
+    php artisan ide-helper:models- PHPDocs для моделей
+
+
+## Возможно полезно для установки Vue js
+composer require laravel/ui
+php artisan ui vue --auth
+#https://www.youtube.com/watch?v=uoZXQfNIxa4&ab_channel=JustinMoreyl
+#https://www.youtube.com/watch?v=CwKrgUTGLbY&t=92s&ab_channel=VladislavGroniuk
+###  из  package.json  из  devDependencies   "vue-loader": "16.6.0",
+
+# MODEL
+php artisan make:model Post -m
+
+# CONTROLLER
+php artisan make:controller MainController
